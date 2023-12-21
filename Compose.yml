@@ -1,0 +1,9 @@
+services:
+
+  api:
+    container_name: api-team
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    ports:
+      - "5000:80"
